@@ -15,7 +15,7 @@ const Footer = () => {
 
           {/* Copyright */}
           <p className="text-muted-foreground text-sm flex items-center gap-1">
-            © {currentYear} Made with <Heart size={14} className="text-accent fill-accent" /> by Nabin
+            © {currentYear} Nabin Bikram Thapa. All rights reserved.
           </p>
 
           {/* Quick Links */}
