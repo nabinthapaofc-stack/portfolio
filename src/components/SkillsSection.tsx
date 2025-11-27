@@ -5,7 +5,7 @@ const skillCategories = [
   },
   {
     title: "Design",
-    skills: ["Adobe Photoshop", "Adobe Illustrator", "Figma", "Canva", "UI/UX Design", "Poster Design", "Branding"],
+    skills: [ "Figma", "Canva", "UI/UX Design", "Poster Design", "Branding"],
   },
   {
     title: "Tools & Others",
