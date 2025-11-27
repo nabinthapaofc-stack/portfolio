@@ -2,15 +2,17 @@
   <!-- Turquoise background -->
   <rect width="500" height="500" fill="#17BCD4"/>
   
-  <!-- White "N" design -->
+  <!-- White "N" letter -->
   <g fill="white">
-    <!-- Left diagonal stroke -->
-    <path d="M 100 80 L 100 420 Q 150 350 200 280 L 200 80 L 80 80 L 100 80 Z" fill="white"/>
+    <!-- Left vertical stroke of N -->
+    <rect x="80" y="80" width="80" height="340" rx="10"/>
     
-    <!-- Right diagonal stroke -->
-    <path d="M 280 80 Q 350 180 400 280 L 400 420 L 280 420 L 280 80 Z" fill="white"/>
+    <!-- Right vertical stroke of N -->
+    <rect x="340" y="80" width="80" height="340" rx="10"/>
     
-    <!-- Connecting curves -->
-    <ellipse cx="240" cy="200" rx="60" ry="100" fill="white" opacity="0.8"/>
+    <!-- Diagonal stroke of N (from bottom-left to top-right) -->
+    <g transform="translate(250, 250)">
+      <rect x="-70" y="-170" width="140" height="340" fill="white" transform="rotate(45)" rx="10"/>
+    </g>
   </g>
 </svg>
