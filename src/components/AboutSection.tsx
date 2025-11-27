@@ -52,15 +52,15 @@ const AboutSection = () => {
             {/* Stats */}
             <div className="flex flex-wrap gap-8">
               <div>
-                <span className="text-4xl font-display font-bold gradient-text">2+</span>
+                <span className="text-4xl font-display font-bold gradient-text">1+</span>
                 <p className="text-muted-foreground mt-1">Years Experience</p>
               </div>
               <div>
-                <span className="text-4xl font-display font-bold gradient-text">15+</span>
+                <span className="text-4xl font-display font-bold gradient-text">10+</span>
                 <p className="text-muted-foreground mt-1">Projects Completed</p>
               </div>
               <div>
-                <span className="text-4xl font-display font-bold gradient-text">10+</span>
+                <span className="text-4xl font-display font-bold gradient-text">5+</span>
                 <p className="text-muted-foreground mt-1">Happy Clients</p>
               </div>
             </div>
