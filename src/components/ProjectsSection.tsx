@@ -24,6 +24,15 @@ const projects = [
   },
   {
     id: 3,
+    title: "Ma Yatri Transport App",
+    category: "Mobile Application",
+    description: "A smart public transport app for Nepal that helps users find bus routes, track live locations, and plan journeys efficiently across the country.",
+    image: pendingImg,
+    tags: ["React Native", "UI/UX Design", "Mobile App"],
+    link: "#",
+  },
+  {
+    id: 4,
     title: "Poster Coming Soon",
     category: "Poster Design",
     description: "Creative poster design featuring bold typography and modern visual elements with a striking gradient background.",
